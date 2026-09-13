@@ -1,0 +1,18 @@
+# Virtual environment (berbagi antar proyek)
+venv/
+
+# Dataset (berlisensi Kaggle, terlalu besar)
+dataset/
+
+# Output pipeline tiap proyek
+*.csv
+*.png
+*.joblib
+*.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
