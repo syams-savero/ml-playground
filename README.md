@@ -1,46 +1,33 @@
-# ml-playground 🧪
+# ml-playground
 
-Perjalanan pribadi belajar **Machine Learning dari nol**. Setiap proyek dikerjakan langkah demi langkah — dari data mentah sampai deployment, supaya alurnya paham bukan cuma menyalin kode. Semua proyek dikumpulkan di satu tempat.
+Kumpulan proyek latihan Machine Learning. Setiap proyek berisi langkah-langkah pengerjaan dari data mentah hingga deployment model.
 
-> **Prinsip:** konsep dasar yang dipelajari tidak lekang waktu. Tool boleh berganti, fondasinya tidak.
+## Daftar Proyek
 
-## Proyek
+| Proyek | Deskripsi | Status |
+|--------|-----------|--------|
+| [house-price](house-price/) | Prediksi harga rumah (regresi) menggunakan data Kaggle | Selesai |
 
-| Proyek | Apa yang dipelajari | Hasil | Status |
-|--------|-------------------|-------|--------|
-| [house-price](./house-price/) | Alur ML lengkap: cleaning → EDA → modelling → **API Flask** | Prediksi harga rumah, **R² 0.90** | ✅ Selesai |
+## Struktur
 
-_Proyek lain akan ditambahkan di sini seiring perjalanan belajar._
-
-## Gaya belajar
-
-Setiap proyek dipecah jadi langkah bernomor (`01_`, `02_`, ...) supaya tiap tahap bisa dipelajari dan diuji sendiri:
-
-```mermaid
-graph LR
-    A[Data Loading] --> B[Cleaning]
-    B --> C[EDA]
-    C --> D[Split]
-    D --> E[Modelling]
-    E --> F[Deployment]
+```
+ml-playground/
+├── house-price/          # proyek prediksi harga rumah
+├── venv/                 # virtual environment (dipakai semua proyek)
+└── README.md
 ```
 
-## Cara menjalankan
+## Cara Menjalankan
 
 ```bash
-# Buat env sekali di root (dipakai semua proyek)
+# dari root repo
 python -m venv venv
 source venv/bin/activate
 
-# Jalankan proyek
+# masuk ke proyek
 cd house-price
 pip install -r requirements.txt
 python 11_modelling.py
 ```
 
-## Roadmap
-
-- [x] Modul 3 — ML Workflow (house-price)
-- [ ] Modul 4 — Klasifikasi
-- [ ] Modul 5 — Regresi
-- [ ] Modul 6 — Clustering
+Penjelasan per langkah ada di README masing-masing proyek.
