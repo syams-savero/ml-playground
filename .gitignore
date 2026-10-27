@@ -1,6 +1,11 @@
 # Virtual environment (berbagi antar proyek)
 venv/
 submission-venv/
+nlp-venv/
+sentimen-venv/
+
+# Local working folders
+nlp-sentiment-analysis/
 
 # Dataset (berlisensi Kaggle, terlalu besar)
 dataset/
