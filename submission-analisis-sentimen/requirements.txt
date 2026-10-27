@@ -1,0 +1,12 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+pandas==3.1.0
+numpy==2.4.6
+scikit-learn==1.9.1
+matplotlib==3.11.2
+seaborn==0.13.2
+joblib==1.6.0
+google-play-scraper==1.2.7
+torch==2.14.1+cpu
+ipykernel==7.4.0
+nbclient==0.11.0
+nbformat==5.11.1
